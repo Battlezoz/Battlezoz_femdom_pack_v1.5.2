@@ -1,0 +1,37 @@
+{
+  "actors": [
+    {
+      "label": "player1",
+      "entity_types": ["minecraft:player"],
+      "actor_tags": ["gender.male"],
+      "injector": "V"
+    },
+    {
+      "label": "pig1",
+      "entity_types": ["minecraft:pig"],
+      "actor_tags": ["gender.female"],
+      "activity": "active"
+    }
+  ],
+  "weight": 2,
+  "content_tags": ["reverse missionary"],
+  "stages": [
+    {
+      "stage": 1,
+      "loop": true,
+      "cycle_seconds": 0.7917,
+      "allow_join": true
+    },
+    {
+      "stage": 2,
+      "use_stage": 1,
+      "loop": true,
+      "cycle_seconds": 0.7917,
+      "cycle_midpoint_offset_seconds": -0.15,
+      "speed": 0.8,
+      "allow_join": false,
+      "escapable": false,
+      "non_peak": true
+    }
+  ]
+}

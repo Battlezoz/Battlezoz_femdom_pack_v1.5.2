@@ -1,0 +1,54 @@
+{
+    "actors": [
+        {
+            "label": "player1",
+            "entity_types": ["minecraft:player"],
+            "actor_tags": ["gender.male"],
+            "activity": "passive",
+            "injector": "V"
+        },
+        {
+            "label": "player2",
+            "entity_types": ["minecraft:player"],
+            "actor_tags": [],
+            "activity": "active"
+        }
+    ],
+    "display_name": "Laying Handjob",
+    "content_tags": ["handjob"],
+    "weight": 2.0,
+    "block_requirements": {
+        "type": "center_support",
+        "support": "surface",
+        "blocks": "#minecraft:beds",
+        "placement": "surface_footprint",
+        "surface_footprint": {
+            "width": 2,
+            "height": 2,
+            "depth": 2,
+            "margin": 0
+        }
+    },
+    "stages": [
+    {
+      "stage": 1,
+      "loop": false,
+      "cycle_seconds": 3.6667
+    },
+    {
+      "stage": 2,
+      "loop": true,
+      "cycle_seconds": 1.2917,
+      "stage_seconds": 19.3755
+    },
+    {
+      "stage": 3,
+      "loop": true,
+      "cycle_seconds": 1.75,
+      "speed": 0.9,
+      "allow_join": false,
+      "escapable": false,
+      "non_peak": true
+    }
+    ]
+}

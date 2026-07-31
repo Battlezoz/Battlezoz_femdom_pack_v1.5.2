@@ -1,0 +1,16 @@
+{
+	"pack":{
+		"pack_format":88,
+		"supported_formats": [64, 94.1],
+		"min_format": 64,
+		"max_format": 94.1,
+		"description": "Custom NoN Pack"
+	},
+	"animationframework": {
+		"id": "battlezoz:femdom",
+		"name": "Battlezoz's Femdom Pack",
+		"author": "Battlezoz",
+		"version": "1.5.1",
+		"description": "Addition player to player sex animations."
+	}
+}

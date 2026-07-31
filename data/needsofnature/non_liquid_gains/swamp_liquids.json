@@ -1,0 +1,9 @@
+{
+    "entries": [
+        {
+            "entity": "minecraft:slime",
+            "gain_ml": 30,
+			"color": "#7bcb62"
+        }
+	]
+}

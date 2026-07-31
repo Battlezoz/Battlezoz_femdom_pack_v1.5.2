@@ -1,0 +1,11 @@
+{
+	"entries":[
+	{
+      "entity": "minecraft:slime",
+      "offspring_min": 1,
+      "offspring_max": 12,
+      "birth_entity": "minecraft:slime",
+      "birth_mode": "direct"
+    }
+  ]
+}
