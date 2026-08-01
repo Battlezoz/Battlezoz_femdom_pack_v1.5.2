@@ -1,17 +1,17 @@
 {
   "actors": [
     {
-            "label": "player1",
+            "label": "player2",
             "entity_types": ["minecraft:player"],
             "actor_tags": ["gender.female"],
             "activity": "active"
         },
         {
-            "label": "player2",
+            "label": "player1",
             "entity_types": ["minecraft:player"],
             "actor_tags": ["gender.male"],
             "activity": "passive",
-			"injector": "M"
+			      "injector": "M"
         }
   ],
   "display_name": "Upside Down Blowjob",
@@ -20,17 +20,17 @@
     {
       "stage": 1,
       "loop": false,
-      "cycle_seconds": 1.5
+      "cycle_seconds": 5.0417
     },
     {
       "stage": 2,
       "loop": true,
-      "cycle_seconds": 0.75
+      "cycle_seconds": 0.6667
     },
 	{
-      "stage": 3,
+      "stage": 5,
       "loop": true,
-      "cycle_seconds": 0.5,
+      "cycle_seconds": 2.75,
       "use_stage": 2,
 	    "speed": 0.45,
       "allow_join": false,

@@ -4,8 +4,7 @@
             "label": "player1",
             "entity_types": ["minecraft:player"],
             "actor_tags": ["gender.male"],
-            "activity": "passive",
-            "injector": "V"
+            "activity": "passive"
         },
         {
             "label": "player2",
