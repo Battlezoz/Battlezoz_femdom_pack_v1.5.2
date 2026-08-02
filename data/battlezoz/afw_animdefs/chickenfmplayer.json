@@ -9,8 +9,7 @@
     {
       "label": "chicken1",
       "entity_types": ["minecraft:chicken"],
-      "actor_tags": ["gender.female"],
-      "receiver": true
+      "actor_tags": ["gender.female"]
     }
   ],
   "stages": [

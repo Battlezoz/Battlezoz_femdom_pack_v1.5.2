@@ -8,7 +8,7 @@
             "injector": "V"
         },
         {
-            "label": "zombie2",
+            "label": "zombie1",
             "entity_types": ["minecraft:zombie", "minecraft:husk"],
             "actor_tags": ["gender.female"],
             "activity": "active"
