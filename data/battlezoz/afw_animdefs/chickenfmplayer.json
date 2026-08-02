@@ -1,0 +1,44 @@
+{
+  "actors": [
+    {
+      "label": "player1",
+      "entity_types": ["minecraft:player"],
+      "actor_tags": ["gender.male"],
+      "injector": "V"
+    },
+    {
+      "label": "chicken1",
+      "entity_types": ["minecraft:chicken"],
+      "actor_tags": ["gender.female"],
+      "receiver": true
+    }
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "loop": false,
+      "cycle_seconds": 1,
+      "allow_join": false
+    },
+	{
+      "stage": 2,
+      "loop": true,
+      "cycle_seconds": 0.5,
+      "cycle_midpoint_offset_seconds": -0.15,
+      "speed": 0.5,
+      "allow_join": true,
+      "escapable": true
+    },
+	{
+      "stage": 3,
+      "use_stage": 2,
+      "loop": true,
+      "cycle_seconds": 0.5,
+      "cycle_midpoint_offset_seconds": -0.15,
+      "speed": 0.5,
+      "allow_join": false,
+      "escapable": false,
+      "non_peak": true
+    }
+  ]
+}
