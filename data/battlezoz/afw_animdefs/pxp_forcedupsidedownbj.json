@@ -16,21 +16,25 @@
   ],
   "display_name": "Upside Down Blowjob",
   "content_tags": ["blowjob","upside down","forced"],
+  "liquid_gain_multiplier": 3.0,
+  "weight": 2.0,
   "stages": [
     {
       "stage": 1,
       "loop": false,
-      "cycle_seconds": 5.0417
+      "cycle_seconds": 1.5,
+      "allow_join": true
     },
     {
       "stage": 2,
       "loop": true,
-      "cycle_seconds": 0.6667
+      "cycle_seconds": 0.5,
+      "stage_duration_multiplier": 0.5
     },
 	{
       "stage": 5,
       "loop": true,
-      "cycle_seconds": 2.75,
+      "cycle_seconds": 1.5833,
       "use_stage": 2,
 	    "speed": 0.45,
       "allow_join": false,
