@@ -8,9 +8,10 @@
 	},
 	"animationframework": {
 		"id": "battlezoz:femdom",
+		"default_model_revision": 1,
 		"name": "Battlezoz's Femdom Pack",
 		"author": "Battlezoz",
-		"version": "1.5.1",
-		"description": "Addition player to player sex animations."
+		"version": "1.5.2",
+		"description": "Adds male-bottom animations for mobs & players."
 	}
 }

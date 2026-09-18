@@ -34,7 +34,7 @@
 	{
       "stage": 5,
       "loop": true,
-      "cycle_seconds": 1.5833,
+      "cycle_seconds": 0.5,
       "use_stage": 2,
 	    "speed": 0.45,
       "allow_join": false,
